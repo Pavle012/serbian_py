@@ -1,3 +1,27 @@
+Metadata-Version: 2.4
+Name: serbian-py
+Version: 0.1.0
+Summary: Serbian language adaptations and utility functions for Python programming
+Author-email: Pavle012 <pavle.tomic.32300@gmail.com>
+License: MIT
+Project-URL: Repository, https://github.com/Pavle012/serbian_py
+Project-URL: Homepage, https://github.com/Pavle012/serbian_py
+Keywords: serbian,language,utilities,education
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Serbian
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
 # Serbian Python (Work in Progress)
 
 A Python library providing Serbian language adaptations and utility functions for educational programming.
