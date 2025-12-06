@@ -32,3 +32,10 @@ def unos_dict_sa_razmacima(*args, **kwargs):
         ključ, vrednost = par.split(':')
         rezultat[ključ] = vrednost
     return rezultat
+"""
+
+More coming soon...
+
+Još dolazi uskoro...
+
+"""
