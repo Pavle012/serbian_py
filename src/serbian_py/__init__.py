@@ -8,6 +8,7 @@ from .main_commands import (
     unos_tuple_sa_razmacima,
     unos_set_sa_razmacima,
     unos_dict_sa_razmacima,
+    da_li_je_pyinstaller,
 )
 
 __version__ = "0.1.0"
@@ -21,4 +22,5 @@ __all__ = [
     "unos_tuple_sa_razmacima",
     "unos_set_sa_razmacima",
     "unos_dict_sa_razmacima",
+    "da_li_je_pyinstaller",
 ]

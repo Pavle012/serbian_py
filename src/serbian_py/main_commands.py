@@ -32,6 +32,12 @@ def unos_dict_sa_razmacima(*args, **kwargs):
         ključ, vrednost = par.split(':')
         rezultat[ključ] = vrednost
     return rezultat
+
+def da_li_je_pyinstaller():
+    """Proverava da li je program pokrenut putem PyInstaller-a"""
+    import sys
+    return getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS')
+
 """
 
 More coming soon...
