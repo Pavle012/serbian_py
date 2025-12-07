@@ -17,7 +17,6 @@ keywords = ["serbian", "language", "utilities", "education"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Education",
-    "License :: OSI Approved :: MIT License",
     "Natural Language :: Serbian",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
