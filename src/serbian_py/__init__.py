@@ -11,7 +11,7 @@ from .main_commands import (
     da_li_je_pyinstaller,
 )
 
-__version__ = "0.1.0"
+__version__ = "0.1.4"
 __author__ = "Pavle012"
 
 __all__ = [
