@@ -1,45 +1,24 @@
 """Glavne komande prilagođene srpskom jeziku i dodatne funkcije za unos podataka."""
 
-def ispiši(*args, **kwargs):
-    """Prilagođena funkcija za ispis koja obavija ugrađenu funkciju print"""
-    print(*args, **kwargs)
+ispiši = print
+napiši = print
 
-def input_broj(*args, **kwargs):
-    """Prilagođena funkcija za unos broja koja obavija ugrađenu funkciju int(input())"""
-    return int(input(*args, **kwargs))
+unos_broj = int(input)
+unesi_broj = int(input)
+input_broj = int(input)
 
-def input_tekst(*args, **kwargs):
-    """Prilagođena funkcija za unos teksta koja obavija ugrađenu funkciju input()"""
-    return input(*args, **kwargs)
+unos_tekst = input
+unesi_tekst = input
+input_tekst = input
 
-def unos_lista_sa_razmacima(*args, **kwargs):
-    """Prilagođena funkcija za unos liste sa razmacima koja obavija ugrađenu funkciju input() i split()"""
-    return input(*args, **kwargs).split()
+unos_lista_sa_razmacima = input.split
+unos_tuple_sa_razmacima = lambda prompt='': tuple(input(prompt).split())
+unos_set_sa_razmacima = lambda prompt='': set(input(prompt).split())
+unos_dict_sa_razmacima = lambda prompt='': dict(
+    (par.split(':') for par in input(prompt).split())
+)
 
-def unos_tuple_sa_razmacima(*args, **kwargs):
-    """Prilagođena funkcija za unos tuple sa razmacima koja obavija ugrađenu funkciju input() i split()"""
-    return tuple(input(*args, **kwargs).split())
-
-def unos_set_sa_razmacima(*args, **kwargs):
-    """Prilagođena funkcija za unos seta sa razmacima koja obavija ugrađenu funkciju input() i split()"""
-    return set(input(*args, **kwargs).split())
-
-def unos_dict_sa_razmacima(*args, **kwargs):
-    """Prilagođena funkcija za unos dict sa razmacima koja obavija ugrađenu funkciju input() i split()"""
-    unos = input(*args, **kwargs).split()
-    rezultat = {}
-    for par in unos:
-        ključ, vrednost = par.split(':')
-        rezultat[ključ] = vrednost
-    return rezultat
-
-def da_li_je_pyinstaller():
-    """Proverava da li je program pokrenut putem PyInstaller-a"""
-    import sys
-    return getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS')
-
-"""
-
+"""More coming soon...
 More coming soon...
 
 Još dolazi uskoro...
